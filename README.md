@@ -5,4 +5,4 @@
 
 ## Image Attributions
 
-- Hero Image by <a href="https://pixabay.com/users/krzysztof-m-1363864/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3201149">krzysztof-m</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3201149">Pixabay</a>
+- [Hero Image](https://pixabay.com/vectors/programming-internet-website-html-3201149/) by <a href="https://pixabay.com/users/krzysztof-m-1363864/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3201149">krzysztof-m</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3201149">Pixabay</a>
