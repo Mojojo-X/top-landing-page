@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+
+
+/* main */
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px 50px;
+    gap:50px;
+}
+
+.hero_text, .hero_img {
+    flex: 0 1 600px;
+}
+
+.hero_img * {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0;
+
+}
+
+.hero button {
+    font-weight: bold;
+    color:#e5e7eb;
+    background-color: #3882f6;
+    padding: 6px 24px;
+    border: 0px;
+    border-radius: 5px;
+}
