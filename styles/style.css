@@ -3,3 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+button {
+    padding: 6px 24px;
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+header, .hero, footer {
+    background-color: #1f2937;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero_text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero_text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info_section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote_section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote_author {
+    font-weight: bolder;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: white;
+}
+
+.cta_text p:first-child {
+    font-weight: bolder;
+}
+
+.cta_button {
+    border: 1px solid #f9faf8;
+}
+
+footer {
+    color: white;
+}
