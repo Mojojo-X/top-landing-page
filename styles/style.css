@@ -17,6 +17,10 @@ header, .hero, footer {
     background-color: #1f2937;
 }
 
+nav ul {
+    list-style: none;
+}
+
 header .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -74,4 +78,37 @@ header a {
 
 footer {
     color: white;
+}
+
+/* Layout */
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.hero_wrapper {
+    padding: 75px 0;
+}
+
+ul.flex, .hero_wrapper {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+ul.flex {
+    justify-content: space-between;
+    gap: 35px;
+}
+
+ul.flex :first-child {
+    margin-right: auto;
+}
+
+.hero_text > * {
+    margin-bottom: 10px;
 }
