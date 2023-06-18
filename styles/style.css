@@ -4,27 +4,42 @@
     box-sizing: border-box;
 }
 
-
 /* header */
 
+header {
+    background-color: #1f2937;
+}
 
+nav * {
+    color:#e5e7eb;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 25px;
+}
+
+.logo {
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+}
 
 /* main */
 
 .hero {
     background-color: #1f2937;
+}
+
+.hero_wrapper {
     display: flex;
     justify-content: center;
-    padding: 100px 50px;
-    gap:50px;
-}
-
-.hero_text, .hero_img {
-    flex: 0 1 600px;
-}
-
-.hero_img * {
-    max-width: 600px;
 }
 
 .hero h1 {
