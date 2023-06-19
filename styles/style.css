@@ -1,175 +1,180 @@
-*, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 button {
-    padding: 6px 24px;
-    background-color: #3882f6;
-    border: 0;
-    border-radius: 5px;
-    color: white;
-    font-weight: bolder;
+  padding: 6px 24px;
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
 }
 
-header, .hero, footer {
-    background-color: #1f2937;
+header,
+.hero,
+footer {
+  background-color: #1f2937;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 header .logo {
-    font-size: 24px;
-    color: #f9faf8;
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 header a {
-    color: #e5e7eb;
-    text-decoration: none;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 .hero_text h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
 .hero_text p {
-    font-size: 18px;
-    color: #e5e7eb;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .info_section h2 {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 
 .quote_section {
-    background-color: #e5e7eb;
+  background-color: #e5e7eb;
 }
 
 .quote {
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .quote_author {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .cta {
-    background-color: #3882f6;
-    color: white;
+  background-color: #3882f6;
+  color: white;
 }
 
 .cta_text p:first-child {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .cta_button {
-    border: 1px solid #f9faf8;
+  border: 1px solid #f9faf8;
 }
 
 footer {
-    color: white;
+  color: white;
 }
 
 /* Layout */
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 header {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .hero_wrapper {
-    padding: 75px 0;
+  padding: 75px 0;
 }
 
-ul.flex, .hero_wrapper {
-    width: 85%;
-    margin: 0 auto;
-    max-width: 1200px;
+ul.flex,
+.hero_wrapper {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 ul.flex {
-    justify-content: space-between;
-    gap: 35px;
+  justify-content: space-between;
+  gap: 35px;
 }
 
 ul.flex :first-child {
-    margin-right: auto;
+  margin-right: auto;
 }
 
 .hero_text > * {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .info_card_container {
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 75px;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 75px;
 }
 
 .info_section h2 {
-    margin: 30px;
-    text-align: center;
+  margin: 30px;
+  text-align: center;
 }
 
 .info_card {
-    width: 250px;
+  width: 250px;
 }
 
 .info_card img {
-    max-width: inherit;
-    max-height: inherit;
-    width: inherit;
-    height: inherit;
-    object-fit: cover;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-    margin-bottom: 5px;
+  max-width: inherit;
+  max-height: inherit;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .quote_section {
-    padding: 150px 200px;
-    align-items: center;
+  padding: 150px 200px;
+  align-items: center;
 }
 
 .quote_wrapper {
-    max-width: 900px;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .quote_author {
-    margin-top: 25px;
-    align-self: flex-end;
+  margin-top: 25px;
+  align-self: flex-end;
 }
 
 .cta_container {
-    padding: 150px 200px;
-    justify-content: center;
-    align-items: center;
+  padding: 150px 200px;
+  justify-content: center;
+  align-items: center;
 }
 
 .cta {
-    padding: 50px 100px;
-    justify-content: space-between;
-    gap: 75px;
-    border-radius: 15px;
+  padding: 50px 100px;
+  justify-content: space-between;
+  gap: 75px;
+  border-radius: 15px;
 }
 
 footer {
-    padding: 50px;
-    text-align: center;
+  padding: 50px;
+  text-align: center;
 }
