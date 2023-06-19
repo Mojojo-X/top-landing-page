@@ -113,8 +113,6 @@ ul.flex :first-child {
     margin-bottom: 10px;
 }
 
-/* Info section */
-
 .info_card_container {
     justify-content: center;
     gap: 50px;
@@ -156,4 +154,22 @@ ul.flex :first-child {
 .quote_author {
     margin-top: 25px;
     align-self: flex-end;
+}
+
+.cta_container {
+    padding: 150px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    padding: 50px 100px;
+    justify-content: space-between;
+    gap: 75px;
+    border-radius: 15px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
 }
