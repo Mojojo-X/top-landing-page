@@ -96,6 +96,7 @@ header {
 
 .hero_wrapper {
   padding: 75px 0;
+  gap: 35px;
 }
 
 ul.flex,
