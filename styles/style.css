@@ -112,3 +112,48 @@ ul.flex :first-child {
 .hero_text > * {
     margin-bottom: 10px;
 }
+
+/* Info section */
+
+.info_card_container {
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 75px;
+}
+
+.info_section h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+.info_card {
+    width: 250px;
+}
+
+.info_card img {
+    max-width: inherit;
+    max-height: inherit;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.quote_section {
+    padding: 150px 200px;
+    align-items: center;
+}
+
+.quote_wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote_author {
+    margin-top: 25px;
+    align-self: flex-end;
+}
